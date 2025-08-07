@@ -7,80 +7,13 @@ from rich.table import Table
 from rich.panel import Panel
 import time
 
-
-class Horse(BaseModel):
-    name: str
-    age: int
-    breed: str
-    energy: float
-    appetite: float
-    discipline: float
-    agility: float
-    temperament: float
-
-    def move(
-        self, time: float, track_condition: float = 1.0, mood: float = 1.0
-    ) -> float:
-        """
-        Calculates distance based on stats, with randomness, track condition, and mood.
-        """
-        base = self.energy * time
-        agility_bonus = self.agility * (1 + 0.05 * time)
-        discipline_factor = 1 + (self.discipline / 10)
-        temperament_effect = 1 - abs(self.temperament - 5) * 0.05
-        appetite_boost = self.appetite * 0.1
-
-        # Add a small random factor (±5%)
-        random_factor = random.uniform(0.95, 1.05)
-
-        # Mood and track_condition are multipliers (default 1.0)
-        return (
-            (base + agility_bonus + appetite_boost)
-            * discipline_factor
-            * temperament_effect
-            * track_condition
-            * mood
-            * random_factor
-        )
-
-
-horse_data = [
-    {
-        "name": "Willow",
-        "age": 6,
-        "breed": "Thoroughbred",
-        "energy": 8.0,
-        "appetite": 6.5,
-        "discipline": 7.0,
-        "agility": 8.5,
-        "temperament": 5.0,
-    },
-    {
-        "name": "Maple",
-        "age": 4,
-        "breed": "Morgan",
-        "energy": 7.5,
-        "appetite": 8.0,
-        "discipline": 6.0,
-        "agility": 7.0,
-        "temperament": 6.5,
-    },
-    {
-        "name": "Echo",
-        "age": 9,
-        "breed": "Arabian",
-        "energy": 6.0,
-        "appetite": 5.5,
-        "discipline": 9.0,
-        "agility": 9.0,
-        "temperament": 4.0,
-    },
-]
+from horse import Horse
+from data import horse_data
 
 
 def run_race(horses, distance=1200):
     """
-    Simulate a race to a fixed distance. Returns the winner and a dict of final distances.
+    Simulate a race to a fixed distance. Returns a dict with all race data, including per-tick positions.
     """
     track_condition = random.choice([0.9, 1.0, 1.1])
     moods = {horse.name: random.choice([0.95, 1.0, 1.05]) for horse in horses}
@@ -88,22 +21,38 @@ def run_race(horses, distance=1200):
     finished = set()
     positions = {horse.name: 0.0 for horse in horses}
     winner = None
+    order = []
+    history = []
 
     while len(finished) < len(horses):
+        tick_snapshot = {}
         for horse in horses:
             if horse.name in finished:
+                tick_snapshot[horse.name] = positions[horse.name]
                 continue
-            # Each "tick" is 1 second
             times[horse.name] += 1
-            positions[horse.name] += horse.move(1, track_condition, moods[horse.name])
+            move = horse.move(1, track_condition, moods[horse.name])
+            positions[horse.name] += move
+            tick_snapshot[horse.name] = positions[horse.name]
             if positions[horse.name] >= distance and horse.name not in finished:
                 finished.add(horse.name)
+                order.append(horse.name)
                 if winner is None:
                     winner = horse
-    return winner, positions, times, track_condition, moods
+        history.append(tick_snapshot.copy())
+    return {
+        "winner": winner.name,
+        "positions": positions,
+        "times": times,
+        "track_condition": track_condition,
+        "moods": moods,
+        "order": order,
+        "history": history,
+        "distance": distance,
+    }
 
 
-def visualise_race(horses, distance=1200):
+def visualise_race_result(race_data, horses):
     console = Console()
     progress = Progress(
         TextColumn("[bold blue]{task.fields[name]}", justify="right"),
@@ -114,34 +63,24 @@ def visualise_race(horses, distance=1200):
         transient=True,
     )
 
-    track_condition = random.choice([0.9, 1.0, 1.1])
-    moods = {horse.name: random.choice([0.95, 1.0, 1.05]) for horse in horses}
     tasks = {}
-    positions = {horse.name: 0.0 for horse in horses}
-    finished = set()
-    winner = None
-
     with progress:
         for horse in horses:
-            tasks[horse.name] = progress.add_task("", name=horse.name, total=distance)
+            tasks[horse.name] = progress.add_task(
+                "", name=horse.name, total=race_data["distance"]
+            )
 
-        while len(finished) < len(horses):
+        for tick in race_data["history"]:
             for horse in horses:
-                if horse.name in finished:
-                    continue
-                move = horse.move(1, track_condition, moods[horse.name])
-                positions[horse.name] += move
-                progress.update(tasks[horse.name], advance=move)
-                if positions[horse.name] >= distance and horse.name not in finished:
-                    finished.add(horse.name)
-                    if winner is None:
-                        winner = horse
+                current = progress.tasks[tasks[horse.name]].completed
+                advance = max(0, tick[horse.name] - current)
+                progress.update(tasks[horse.name], advance=advance)
             time.sleep(0.2)
 
     console.print(
-        f"\n[bold yellow]Track Condition:[/] {track_condition} | [bold yellow]Moods:[/] {moods}"
+        f"\n[bold yellow]Track Condition:[/] {race_data['track_condition']} | [bold yellow]Moods:[/] {race_data['moods']}"
     )
-    console.print(f"\n🏆 [bold green]{winner.name}[/] wins the race! 🏇")
+    console.print(f"\n🏆 [bold green]{race_data['winner']}[/] wins the race! 🏇")
 
 
 def graph_wins(total_wins):
@@ -157,13 +96,15 @@ def graph_wins(total_wins):
     console.print(Panel(table, title="🏇 Race Results", expand=False))
 
 
-# Example: benchmark 100 races and graph the wins
 if __name__ == "__main__":
     horses = [Horse(**data) for data in horse_data]
     total_wins = {horse.name: 0 for horse in horses}
+    race_results = []
     for _ in range(100):
-        winner, *_ = run_race(horses, 1500)
-        total_wins[winner.name] += 1
+        race_data = run_race(horses)
+        total_wins[race_data["winner"]] += 1
+        race_results.append(race_data)
     graph_wins(total_wins)
-    # Optionally, visualise a single race:
-    visualise_race(horses)
+    # Optionally, visualise a single race playback:
+    visualise_race_result(race_results[2], horses)
+    visualise_race_result(race_results[3], horses)

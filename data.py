@@ -1,0 +1,32 @@
+horse_data = [
+    {
+        "name": "Willow",
+        "age": 6,
+        "breed": "Thoroughbred",
+        "energy": 8.0,
+        "appetite": 6.5,
+        "discipline": 7.0,
+        "agility": 8.5,
+        "temperament": 5.0,
+    },
+    {
+        "name": "Maple",
+        "age": 4,
+        "breed": "Morgan",
+        "energy": 7.5,
+        "appetite": 8.0,
+        "discipline": 6.0,
+        "agility": 7.0,
+        "temperament": 6.5,
+    },
+    {
+        "name": "Echo",
+        "age": 9,
+        "breed": "Arabian",
+        "energy": 6.0,
+        "appetite": 5.5,
+        "discipline": 9.0,
+        "agility": 9.0,
+        "temperament": 4.0,
+    },
+]
