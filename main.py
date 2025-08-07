@@ -1,110 +1,62 @@
-from pydantic import BaseModel
-
 import random
 from rich.console import Console
-from rich.progress import Progress, BarColumn, TextColumn, TimeElapsedColumn
 from rich.table import Table
 from rich.panel import Panel
-import time
 
 from horse import Horse
 from data import horse_data
+from simulation import run_race
+from display import display_odds, visualise_race_result
+from pricing import estimate_all_odds
 
 
-def run_race(horses, distance=1200):
-    """
-    Simulate a race to a fixed distance. Returns a dict with all race data, including per-tick positions.
-    """
-    track_condition = random.choice([0.9, 1.0, 1.1])
-    moods = {horse.name: random.choice([0.95, 1.0, 1.05]) for horse in horses}
-    times = {horse.name: 0 for horse in horses}
-    finished = set()
-    positions = {horse.name: 0.0 for horse in horses}
-    winner = None
-    order = []
-    history = []
-
-    while len(finished) < len(horses):
-        tick_snapshot = {}
-        for horse in horses:
-            if horse.name in finished:
-                tick_snapshot[horse.name] = positions[horse.name]
-                continue
-            times[horse.name] += 1
-            move = horse.move(1, track_condition, moods[horse.name])
-            positions[horse.name] += move
-            tick_snapshot[horse.name] = positions[horse.name]
-            if positions[horse.name] >= distance and horse.name not in finished:
-                finished.add(horse.name)
-                order.append(horse.name)
-                if winner is None:
-                    winner = horse
-        history.append(tick_snapshot.copy())
-    return {
-        "winner": winner.name,
-        "positions": positions,
-        "times": times,
-        "track_condition": track_condition,
-        "moods": moods,
-        "order": order,
-        "history": history,
-        "distance": distance,
-    }
-
-
-def visualise_race_result(race_data, horses):
+def main():
     console = Console()
-    progress = Progress(
-        TextColumn("[bold blue]{task.fields[name]}", justify="right"),
-        BarColumn(bar_width=None),
-        TextColumn("{task.completed:.1f}m"),
-        TimeElapsedColumn(),
-        console=console,
-        transient=True,
+    horses = [Horse(**d) for d in horse_data]
+
+    # Train odds (more sims = more stable)
+    sims = 2000
+    total_wins = {h.name: 0 for h in horses}
+    for _ in range(sims):
+        res = run_race(horses)
+        total_wins[res["winner"]] += 1
+
+    odds = estimate_all_odds(
+        horses, total_wins, sims=sims, house_margin=0.10, alpha=1.0
     )
+    display_odds(odds)
 
-    tasks = {}
-    with progress:
-        for horse in horses:
-            tasks[horse.name] = progress.add_task(
-                "", name=horse.name, total=race_data["distance"]
-            )
+    # Example bets
+    bets = {"Willow": 100, "Maple": 50, "Echo": 75}
 
-        for tick in race_data["history"]:
-            for horse in horses:
-                current = progress.tasks[tasks[horse.name]].completed
-                advance = max(0, tick[horse.name] - current)
-                progress.update(tasks[horse.name], advance=advance)
-            time.sleep(0.2)
+    # Run a reproducible race and visualize from seed (no history stored)
+    seed = random.randint(0, 2**32 - 1)
+    race = visualise_race_result(horses, distance=1200, seed=seed, tick_delay=0.05)
 
-    console.print(
-        f"\n[bold yellow]Track Condition:[/] {race_data['track_condition']} | [bold yellow]Moods:[/] {race_data['moods']}"
-    )
-    console.print(f"\n🏆 [bold green]{race_data['winner']}[/] wins the race! 🏇")
+    # Settle
+    winner = race["winner"]
+    payouts = {}
+    for name, stake in bets.items():
+        if name == winner:
+            profit = stake * (odds[name] - 1)  # profit-only
+            payouts[name] = profit
+        else:
+            payouts[name] = -stake
 
-
-def graph_wins(total_wins):
-    console = Console()
-    table = Table(title="Horse Race Win Counts")
-    table.add_column("Horse", justify="left", style="cyan")
-    table.add_column("Wins", justify="right", style="magenta")
-    table.add_column("Bar", justify="left", style="green")
-    max_wins = max(total_wins.values()) if total_wins else 1
-    for horse, wins in total_wins.items():
-        bar = "█" * int((wins / max_wins) * 20)
-        table.add_row(horse, str(wins), bar)
-    console.print(Panel(table, title="🏇 Race Results", expand=False))
+    # Payout table
+    t = Table(title="Payouts")
+    t.add_column("Horse")
+    t.add_column("Stake", justify="right")
+    t.add_column("P/L", justify="right")
+    for name, stake in bets.items():
+        pl = payouts[name]
+        t.add_row(
+            name,
+            f"£{stake:.2f}",
+            f"[green]£{pl:.2f}[/]" if pl >= 0 else f"[red]£{pl:.2f}[/]",
+        )
+    console.print(Panel(t, title=f"🏆 Winner: {winner}  |  Seed: {race['seed']}"))
 
 
 if __name__ == "__main__":
-    horses = [Horse(**data) for data in horse_data]
-    total_wins = {horse.name: 0 for horse in horses}
-    race_results = []
-    for _ in range(100):
-        race_data = run_race(horses)
-        total_wins[race_data["winner"]] += 1
-        race_results.append(race_data)
-    graph_wins(total_wins)
-    # Optionally, visualise a single race playback:
-    visualise_race_result(race_results[2], horses)
-    visualise_race_result(race_results[3], horses)
+    main()
