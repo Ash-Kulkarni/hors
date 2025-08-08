@@ -1,0 +1,1259 @@
+{
+  "horses": [
+    {
+      "id": "h_b3082d",
+      "name": "Ember",
+      "age_races": 2,
+      "retire_after": 10,
+      "wins": 1,
+      "losses": 1,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 7.74342056177708,
+        "agility": 8.285406203118834,
+        "discipline": 8.03671819433359,
+        "temperament": 5.2322409032258195
+      }
+    },
+    {
+      "id": "h_bca212",
+      "name": "Echo",
+      "age_races": 7,
+      "retire_after": 10,
+      "wins": 4,
+      "losses": 3,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 8.629131212849448,
+        "agility": 6.875518850239413,
+        "discipline": 8.847950143197902,
+        "temperament": 5.421584743130126
+      }
+    },
+    {
+      "id": "h_491aa6",
+      "name": "Whisperwind",
+      "age_races": 4,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 4,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 8.33276182100036,
+        "agility": 6.8678599761948025,
+        "discipline": 6.150930876391291,
+        "temperament": 3.0132891604520196
+      }
+    },
+    {
+      "id": "h_1217aa",
+      "name": "Starfire",
+      "age_races": 2,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 2,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 7.748894645958307,
+        "agility": 7.052921909542319,
+        "discipline": 6.013610256318783,
+        "temperament": 4.654521636608797
+      }
+    },
+    {
+      "id": "h_5a3f1d",
+      "name": "Black Days",
+      "age_races": 5,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 5,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 8.012459911018281,
+        "agility": 6.709018495697508,
+        "discipline": 5.47535187618999,
+        "temperament": 3.4926961861084442
+      }
+    },
+    {
+      "id": "h_916aed",
+      "name": "Copperfield",
+      "age_races": 4,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 4,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 6.754612762580602,
+        "agility": 6.361911553532085,
+        "discipline": 7.05383697283554,
+        "temperament": 5.9389230648017755
+      }
+    },
+    {
+      "id": "h_7f6e32",
+      "name": "Midnight",
+      "age_races": 6,
+      "retire_after": 10,
+      "wins": 1,
+      "losses": 5,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 6.946839975778802,
+        "agility": 8.563808016465721,
+        "discipline": 5.232064031673998,
+        "temperament": 5.434949768001116
+      }
+    },
+    {
+      "id": "h_40adb0",
+      "name": "Stormchaser",
+      "age_races": 5,
+      "retire_after": 10,
+      "wins": 3,
+      "losses": 2,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 8.47407999531266,
+        "agility": 8.77819402307249,
+        "discipline": 8.345530908095675,
+        "temperament": 3.7096605237690503
+      }
+    },
+    {
+      "id": "h_a97a23",
+      "name": "Shadowfax",
+      "age_races": 6,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 6,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 7.182751856421138,
+        "agility": 7.567507935324537,
+        "discipline": 6.838932121825944,
+        "temperament": 3.4071537162150345
+      }
+    },
+    {
+      "id": "h_371241",
+      "name": "Midnight",
+      "age_races": 6,
+      "retire_after": 10,
+      "wins": 2,
+      "losses": 4,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 8.945395287615993,
+        "agility": 8.542326042087392,
+        "discipline": 6.252055250980603,
+        "temperament": 5.129764864920951
+      }
+    },
+    {
+      "id": "h_227aad",
+      "name": "Ember",
+      "age_races": 4,
+      "retire_after": 10,
+      "wins": 1,
+      "losses": 3,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 7.341889430004958,
+        "agility": 7.581400269757072,
+        "discipline": 8.3151302549634,
+        "temperament": 6.227475720846743
+      }
+    },
+    {
+      "id": "h_2af99f",
+      "name": "Whisperwind",
+      "age_races": 6,
+      "retire_after": 10,
+      "wins": 1,
+      "losses": 5,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 6.535571450435096,
+        "agility": 7.432303740387388,
+        "discipline": 7.7308981532027605,
+        "temperament": 5.200082481363096
+      }
+    },
+    {
+      "id": "h_c85e59",
+      "name": "Starfire",
+      "age_races": 5,
+      "retire_after": 10,
+      "wins": 2,
+      "losses": 3,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 7.284904845697033,
+        "agility": 8.07728864377765,
+        "discipline": 8.402561074237363,
+        "temperament": 4.39948510416196
+      }
+    },
+    {
+      "id": "h_61389e",
+      "name": "Shadowfax",
+      "age_races": 4,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 4,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 7.845862477834741,
+        "agility": 7.408151994584908,
+        "discipline": 6.742560591041977,
+        "temperament": 3.940309961070702
+      }
+    },
+    {
+      "id": "h_966a16",
+      "name": "Echo",
+      "age_races": 0,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 0,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 8.274566489154601,
+        "agility": 6.282670704498794,
+        "discipline": 5.401019481436657,
+        "temperament": 4.245794772698313
+      }
+    },
+    {
+      "id": "h_9abdb8",
+      "name": "Maple",
+      "age_races": 5,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 5,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 7.026639842733317,
+        "agility": 6.356569211303754,
+        "discipline": 5.902382184850049,
+        "temperament": 4.691793414157828
+      }
+    },
+    {
+      "id": "h_0be4e4",
+      "name": "Maple",
+      "age_races": 5,
+      "retire_after": 10,
+      "wins": 1,
+      "losses": 4,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 8.440172456971577,
+        "agility": 6.451361656704757,
+        "discipline": 5.4212010464431355,
+        "temperament": 5.505462881853024
+      }
+    },
+    {
+      "id": "h_c2e206",
+      "name": "Breeze",
+      "age_races": 3,
+      "retire_after": 10,
+      "wins": 1,
+      "losses": 2,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 6.986498444874419,
+        "agility": 8.206643725419154,
+        "discipline": 6.388972068849716,
+        "temperament": 3.9528160399208065
+      }
+    },
+    {
+      "id": "h_09c40f",
+      "name": "Copperfield",
+      "age_races": 5,
+      "retire_after": 10,
+      "wins": 1,
+      "losses": 4,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 7.599970672636,
+        "agility": 8.347079029464826,
+        "discipline": 6.402661468335355,
+        "temperament": 5.549538236233297
+      }
+    },
+    {
+      "id": "h_8d78de",
+      "name": "Maple",
+      "age_races": 7,
+      "retire_after": 10,
+      "wins": 2,
+      "losses": 5,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 8.847985312145386,
+        "agility": 8.274937241108713,
+        "discipline": 5.6131705674760175,
+        "temperament": 4.981308328719166
+      }
+    },
+    {
+      "id": "h_82f094",
+      "name": "Blizzard",
+      "age_races": 1,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 1,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 8.365233507715404,
+        "agility": 7.642896292581809,
+        "discipline": 5.347551280328162,
+        "temperament": 6.685774340856622
+      }
+    },
+    {
+      "id": "h_3a2233",
+      "name": "Maple",
+      "age_races": 6,
+      "retire_after": 10,
+      "wins": 1,
+      "losses": 5,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 7.776663101867101,
+        "agility": 6.930356848212718,
+        "discipline": 8.390466126610447,
+        "temperament": 5.299672331882233
+      }
+    },
+    {
+      "id": "h_6b4d3b",
+      "name": "Stormchaser",
+      "age_races": 4,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 4,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 7.852962443598839,
+        "agility": 8.01309091355193,
+        "discipline": 5.335672575773245,
+        "temperament": 3.076002030931522
+      }
+    },
+    {
+      "id": "h_62b2b8",
+      "name": "Breeze",
+      "age_races": 4,
+      "retire_after": 10,
+      "wins": 1,
+      "losses": 3,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 7.754932285582301,
+        "agility": 7.050997454027266,
+        "discipline": 6.010949937282237,
+        "temperament": 5.675729255282333
+      }
+    },
+    {
+      "id": "h_feb9f4",
+      "name": "Silver Blaze",
+      "age_races": 6,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 6,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 6.184799368744868,
+        "agility": 7.770671517112122,
+        "discipline": 5.733766205435632,
+        "temperament": 5.2772534501542205
+      }
+    },
+    {
+      "id": "h_c6c201",
+      "name": "Wildflower",
+      "age_races": 5,
+      "retire_after": 10,
+      "wins": 1,
+      "losses": 4,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 7.32406971619689,
+        "agility": 8.190814486125703,
+        "discipline": 8.17538147803693,
+        "temperament": 6.695495894814732
+      }
+    },
+    {
+      "id": "h_4f4f02",
+      "name": "Wildflower",
+      "age_races": 5,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 5,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 8.053718057957761,
+        "agility": 7.256150255920359,
+        "discipline": 5.372498375793409,
+        "temperament": 4.732855263495654
+      }
+    },
+    {
+      "id": "h_ca849a",
+      "name": "Breeze",
+      "age_races": 5,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 5,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 6.970266838154566,
+        "agility": 7.382150932496163,
+        "discipline": 6.4665836170603725,
+        "temperament": 4.389604982028504
+      }
+    },
+    {
+      "id": "h_4a8772",
+      "name": "Nightshade",
+      "age_races": 7,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 7,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 8.038624782530484,
+        "agility": 7.76740604144977,
+        "discipline": 6.134643178986622,
+        "temperament": 3.7472417816575017
+      }
+    },
+    {
+      "id": "h_5762d7",
+      "name": "Horse-610e",
+      "age_races": 0,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 0,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 6.137043658916332,
+        "agility": 7.670160689561702,
+        "discipline": 5.338580759241138,
+        "temperament": 5.192122958543626
+      }
+    }
+  ],
+  "races": [
+    {
+      "id": "r_00001",
+      "ts": "2025-08-08T23:10:12.930054Z",
+      "distance": 1200,
+      "seed": 134047445,
+      "track": 1.0,
+      "moods": {
+        "h_40adb0": 0.95,
+        "h_c2e206": 1.0,
+        "h_b3082d": 1.0,
+        "h_712694": 1.05,
+        "h_371241": 0.95,
+        "h_a97a23": 0.95
+      },
+      "horses": [
+        "h_40adb0",
+        "h_c2e206",
+        "h_b3082d",
+        "h_712694",
+        "h_371241",
+        "h_a97a23"
+      ],
+      "order": [
+        "h_b3082d",
+        "h_40adb0",
+        "h_371241",
+        "h_712694",
+        "h_c2e206",
+        "h_a97a23"
+      ],
+      "winner": "h_b3082d"
+    },
+    {
+      "id": "r_00002",
+      "ts": "2025-08-08T23:10:34.640718Z",
+      "distance": 1200,
+      "seed": 3504275586,
+      "track": 1.1,
+      "moods": {
+        "h_a97a23": 0.95,
+        "h_09c40f": 1.05,
+        "h_61389e": 1.05,
+        "h_8d78de": 0.95,
+        "h_491aa6": 1.05,
+        "h_227aad": 1.0
+      },
+      "horses": [
+        "h_a97a23",
+        "h_09c40f",
+        "h_61389e",
+        "h_8d78de",
+        "h_491aa6",
+        "h_227aad"
+      ],
+      "order": [
+        "h_09c40f",
+        "h_61389e",
+        "h_227aad",
+        "h_8d78de",
+        "h_491aa6",
+        "h_a97a23"
+      ],
+      "winner": "h_09c40f"
+    },
+    {
+      "id": "r_00003",
+      "ts": "2025-08-08T23:10:56.426246Z",
+      "distance": 1200,
+      "seed": 1771376678,
+      "track": 1.1,
+      "moods": {
+        "h_916aed": 1.05,
+        "h_a97a23": 0.95,
+        "h_0be4e4": 0.95,
+        "h_feb9f4": 1.0,
+        "h_6b4d3b": 1.0,
+        "h_c2e206": 1.0
+      },
+      "horses": [
+        "h_916aed",
+        "h_a97a23",
+        "h_0be4e4",
+        "h_feb9f4",
+        "h_6b4d3b",
+        "h_c2e206"
+      ],
+      "order": [
+        "h_c2e206",
+        "h_916aed",
+        "h_a97a23",
+        "h_feb9f4",
+        "h_6b4d3b",
+        "h_0be4e4"
+      ],
+      "winner": "h_c2e206"
+    },
+    {
+      "id": "r_00004",
+      "ts": "2025-08-08T23:11:18.286238Z",
+      "distance": 1200,
+      "seed": 2381716954,
+      "track": 1.1,
+      "moods": {
+        "h_9abdb8": 0.95,
+        "h_7f6e32": 0.95,
+        "h_227aad": 1.05,
+        "h_a97a23": 1.0,
+        "h_3a2233": 0.95,
+        "h_371241": 0.95
+      },
+      "horses": [
+        "h_9abdb8",
+        "h_7f6e32",
+        "h_227aad",
+        "h_a97a23",
+        "h_3a2233",
+        "h_371241"
+      ],
+      "order": [
+        "h_227aad",
+        "h_371241",
+        "h_3a2233",
+        "h_a97a23",
+        "h_7f6e32",
+        "h_9abdb8"
+      ],
+      "winner": "h_227aad"
+    },
+    {
+      "id": "r_00005",
+      "ts": "2025-08-08T23:11:40.381616Z",
+      "distance": 1200,
+      "seed": 85455332,
+      "track": 0.9,
+      "moods": {
+        "h_c85e59": 1.0,
+        "h_ca849a": 0.95,
+        "h_40adb0": 0.95,
+        "h_8d78de": 1.05,
+        "h_4a8772": 1.0,
+        "h_916aed": 1.0
+      },
+      "horses": [
+        "h_c85e59",
+        "h_ca849a",
+        "h_40adb0",
+        "h_8d78de",
+        "h_4a8772",
+        "h_916aed"
+      ],
+      "order": [
+        "h_40adb0",
+        "h_8d78de",
+        "h_c85e59",
+        "h_4a8772",
+        "h_ca849a",
+        "h_916aed"
+      ],
+      "winner": "h_40adb0"
+    },
+    {
+      "id": "r_00006",
+      "ts": "2025-08-08T23:12:02.488672Z",
+      "distance": 1200,
+      "seed": 1585562673,
+      "track": 0.9,
+      "moods": {
+        "h_371241": 0.95,
+        "h_5a3f1d": 1.0,
+        "h_feb9f4": 1.05,
+        "h_2af99f": 1.0,
+        "h_ca849a": 1.0,
+        "h_4a8772": 1.05
+      },
+      "horses": [
+        "h_371241",
+        "h_5a3f1d",
+        "h_feb9f4",
+        "h_2af99f",
+        "h_ca849a",
+        "h_4a8772"
+      ],
+      "order": [
+        "h_371241",
+        "h_4a8772",
+        "h_2af99f",
+        "h_ca849a",
+        "h_feb9f4",
+        "h_5a3f1d"
+      ],
+      "winner": "h_371241"
+    },
+    {
+      "id": "r_00007",
+      "ts": "2025-08-08T23:12:24.719406Z",
+      "distance": 1200,
+      "seed": 2489009693,
+      "track": 0.9,
+      "moods": {
+        "h_62b2b8": 0.95,
+        "h_7f6e32": 1.05,
+        "h_9abdb8": 0.95,
+        "h_8d78de": 0.95,
+        "h_ca849a": 1.05,
+        "h_4a8772": 1.05
+      },
+      "horses": [
+        "h_62b2b8",
+        "h_7f6e32",
+        "h_9abdb8",
+        "h_8d78de",
+        "h_ca849a",
+        "h_4a8772"
+      ],
+      "order": [
+        "h_8d78de",
+        "h_4a8772",
+        "h_7f6e32",
+        "h_ca849a",
+        "h_62b2b8",
+        "h_9abdb8"
+      ],
+      "winner": "h_8d78de"
+    },
+    {
+      "id": "r_00008",
+      "ts": "2025-08-08T23:12:46.501262Z",
+      "distance": 1200,
+      "seed": 2203469016,
+      "track": 1.1,
+      "moods": {
+        "h_a97a23": 1.05,
+        "h_2af99f": 1.0,
+        "h_62b2b8": 0.95,
+        "h_4a8772": 0.95,
+        "h_4f4f02": 1.05,
+        "h_6b4d3b": 0.95
+      },
+      "horses": [
+        "h_a97a23",
+        "h_2af99f",
+        "h_62b2b8",
+        "h_4a8772",
+        "h_4f4f02",
+        "h_6b4d3b"
+      ],
+      "order": [
+        "h_2af99f",
+        "h_4f4f02",
+        "h_a97a23",
+        "h_4a8772",
+        "h_62b2b8",
+        "h_6b4d3b"
+      ],
+      "winner": "h_2af99f"
+    },
+    {
+      "id": "r_00009",
+      "ts": "2025-08-08T23:13:08.518181Z",
+      "distance": 1200,
+      "seed": 1466771377,
+      "track": 1.0,
+      "moods": {
+        "h_4f4f02": 1.0,
+        "h_3a2233": 1.0,
+        "h_6b4d3b": 0.95,
+        "h_61389e": 1.0,
+        "h_bca212": 0.95,
+        "h_9abdb8": 0.95
+      },
+      "horses": [
+        "h_4f4f02",
+        "h_3a2233",
+        "h_6b4d3b",
+        "h_61389e",
+        "h_bca212",
+        "h_9abdb8"
+      ],
+      "order": [
+        "h_3a2233",
+        "h_bca212",
+        "h_61389e",
+        "h_4f4f02",
+        "h_6b4d3b",
+        "h_9abdb8"
+      ],
+      "winner": "h_3a2233"
+    },
+    {
+      "id": "r_00010",
+      "ts": "2025-08-08T23:13:30.319814Z",
+      "distance": 1200,
+      "seed": 3249480869,
+      "track": 1.1,
+      "moods": {
+        "h_6b4d3b": 0.95,
+        "h_5a3f1d": 1.0,
+        "h_61389e": 1.0,
+        "h_c6c201": 1.0,
+        "h_ca849a": 1.0,
+        "h_4f4f02": 1.05
+      },
+      "horses": [
+        "h_6b4d3b",
+        "h_5a3f1d",
+        "h_61389e",
+        "h_c6c201",
+        "h_ca849a",
+        "h_4f4f02"
+      ],
+      "order": [
+        "h_c6c201",
+        "h_4f4f02",
+        "h_61389e",
+        "h_ca849a",
+        "h_5a3f1d",
+        "h_6b4d3b"
+      ],
+      "winner": "h_c6c201"
+    },
+    {
+      "id": "r_00011",
+      "ts": "2025-08-08T23:13:52.199798Z",
+      "distance": 1200,
+      "seed": 1522589557,
+      "track": 1.1,
+      "moods": {
+        "h_712694": 0.95,
+        "h_82f094": 0.95,
+        "h_7f6e32": 0.95,
+        "h_0be4e4": 1.0,
+        "h_feb9f4": 1.0,
+        "h_5a3f1d": 0.95
+      },
+      "horses": [
+        "h_712694",
+        "h_82f094",
+        "h_7f6e32",
+        "h_0be4e4",
+        "h_feb9f4",
+        "h_5a3f1d"
+      ],
+      "order": [
+        "h_0be4e4",
+        "h_712694",
+        "h_7f6e32",
+        "h_feb9f4",
+        "h_82f094",
+        "h_5a3f1d"
+      ],
+      "winner": "h_0be4e4"
+    },
+    {
+      "id": "r_00012",
+      "ts": "2025-08-08T23:14:13.950568Z",
+      "distance": 1200,
+      "seed": 2672714692,
+      "track": 1.1,
+      "moods": {
+        "h_916aed": 1.05,
+        "h_9abdb8": 1.05,
+        "h_4a8772": 0.95,
+        "h_4f4f02": 0.95,
+        "h_c85e59": 1.0,
+        "h_feb9f4": 1.0
+      },
+      "horses": [
+        "h_916aed",
+        "h_9abdb8",
+        "h_4a8772",
+        "h_4f4f02",
+        "h_c85e59",
+        "h_feb9f4"
+      ],
+      "order": [
+        "h_c85e59",
+        "h_4a8772",
+        "h_916aed",
+        "h_9abdb8",
+        "h_4f4f02",
+        "h_feb9f4"
+      ],
+      "winner": "h_c85e59"
+    },
+    {
+      "id": "r_00013",
+      "ts": "2025-08-08T23:14:35.670384Z",
+      "distance": 1200,
+      "seed": 3976529249,
+      "track": 1.1,
+      "moods": {
+        "h_feb9f4": 1.05,
+        "h_4a8772": 1.05,
+        "h_5a3f1d": 1.05,
+        "h_1217aa": 1.05,
+        "h_712694": 0.95,
+        "h_bca212": 1.05
+      },
+      "horses": [
+        "h_feb9f4",
+        "h_4a8772",
+        "h_5a3f1d",
+        "h_1217aa",
+        "h_712694",
+        "h_bca212"
+      ],
+      "order": [
+        "h_bca212",
+        "h_4a8772",
+        "h_1217aa",
+        "h_feb9f4",
+        "h_5a3f1d",
+        "h_712694"
+      ],
+      "winner": "h_bca212"
+    },
+    {
+      "id": "r_00014",
+      "ts": "2025-08-08T23:14:57.432824Z",
+      "distance": 1200,
+      "seed": 2276750274,
+      "track": 1.1,
+      "moods": {
+        "h_916aed": 1.0,
+        "h_491aa6": 1.05,
+        "h_712694": 1.0,
+        "h_feb9f4": 1.0,
+        "h_4f4f02": 1.0,
+        "h_62b2b8": 1.05
+      },
+      "horses": [
+        "h_916aed",
+        "h_491aa6",
+        "h_712694",
+        "h_feb9f4",
+        "h_4f4f02",
+        "h_62b2b8"
+      ],
+      "order": [
+        "h_62b2b8",
+        "h_4f4f02",
+        "h_491aa6",
+        "h_712694",
+        "h_feb9f4",
+        "h_916aed"
+      ],
+      "winner": "h_62b2b8"
+    },
+    {
+      "id": "r_00015",
+      "ts": "2025-08-08T23:15:19.584036Z",
+      "distance": 1200,
+      "seed": 1666411862,
+      "track": 0.9,
+      "moods": {
+        "h_9abdb8": 1.0,
+        "h_491aa6": 0.95,
+        "h_7f6e32": 1.05,
+        "h_5a3f1d": 1.0,
+        "h_a97a23": 1.05,
+        "h_712694": 1.0
+      },
+      "horses": [
+        "h_9abdb8",
+        "h_491aa6",
+        "h_7f6e32",
+        "h_5a3f1d",
+        "h_a97a23",
+        "h_712694"
+      ],
+      "order": [
+        "h_7f6e32",
+        "h_a97a23",
+        "h_712694",
+        "h_491aa6",
+        "h_9abdb8",
+        "h_5a3f1d"
+      ],
+      "winner": "h_7f6e32"
+    },
+    {
+      "id": "r_00016",
+      "ts": "2025-08-08T23:15:41.517475Z",
+      "distance": 1200,
+      "seed": 3617170173,
+      "track": 1.0,
+      "moods": {
+        "h_4a8772": 1.0,
+        "h_61389e": 0.95,
+        "h_ca849a": 0.95,
+        "h_491aa6": 0.95,
+        "h_712694": 1.05,
+        "h_1217aa": 0.95
+      },
+      "horses": [
+        "h_4a8772",
+        "h_61389e",
+        "h_ca849a",
+        "h_491aa6",
+        "h_712694",
+        "h_1217aa"
+      ],
+      "order": [
+        "h_712694",
+        "h_4a8772",
+        "h_61389e",
+        "h_ca849a",
+        "h_1217aa",
+        "h_491aa6"
+      ],
+      "winner": "h_712694"
+    },
+    {
+      "id": "r_00017",
+      "ts": "2025-08-08T23:16:03.295171Z",
+      "distance": 1200,
+      "seed": 625402188,
+      "track": 0.9,
+      "moods": {
+        "h_3a2233": 1.05,
+        "h_c6c201": 1.0,
+        "h_bca212": 1.05,
+        "h_09c40f": 1.05,
+        "h_2af99f": 1.05,
+        "h_b3082d": 1.0
+      },
+      "horses": [
+        "h_3a2233",
+        "h_c6c201",
+        "h_bca212",
+        "h_09c40f",
+        "h_2af99f",
+        "h_b3082d"
+      ],
+      "order": [
+        "h_bca212",
+        "h_b3082d",
+        "h_3a2233",
+        "h_09c40f",
+        "h_c6c201",
+        "h_2af99f"
+      ],
+      "winner": "h_bca212"
+    },
+    {
+      "id": "r_00018",
+      "ts": "2025-08-08T23:16:25.254107Z",
+      "distance": 1200,
+      "seed": 1389283893,
+      "track": 0.9,
+      "moods": {
+        "h_09c40f": 1.0,
+        "h_0be4e4": 1.05,
+        "h_712694": 1.0,
+        "h_7f6e32": 1.05,
+        "h_8d78de": 1.05,
+        "h_40adb0": 1.0
+      },
+      "horses": [
+        "h_09c40f",
+        "h_0be4e4",
+        "h_712694",
+        "h_7f6e32",
+        "h_8d78de",
+        "h_40adb0"
+      ],
+      "order": [
+        "h_40adb0",
+        "h_8d78de",
+        "h_09c40f",
+        "h_7f6e32",
+        "h_0be4e4",
+        "h_712694"
+      ],
+      "winner": "h_40adb0"
+    },
+    {
+      "id": "r_00019",
+      "ts": "2025-08-08T23:16:47.197192Z",
+      "distance": 1200,
+      "seed": 2919012554,
+      "track": 0.9,
+      "moods": {
+        "h_40adb0": 1.05,
+        "h_c6c201": 0.95,
+        "h_8d78de": 1.0,
+        "h_62b2b8": 1.0,
+        "h_bca212": 1.0,
+        "h_2af99f": 0.95
+      },
+      "horses": [
+        "h_40adb0",
+        "h_c6c201",
+        "h_8d78de",
+        "h_62b2b8",
+        "h_bca212",
+        "h_2af99f"
+      ],
+      "order": [
+        "h_40adb0",
+        "h_bca212",
+        "h_8d78de",
+        "h_c6c201",
+        "h_2af99f",
+        "h_62b2b8"
+      ],
+      "winner": "h_40adb0"
+    },
+    {
+      "id": "r_00020",
+      "ts": "2025-08-08T23:17:09.008042Z",
+      "distance": 1200,
+      "seed": 1952218171,
+      "track": 0.9,
+      "moods": {
+        "h_c6c201": 0.95,
+        "h_3a2233": 0.95,
+        "h_bca212": 1.05,
+        "h_227aad": 1.0,
+        "h_40adb0": 0.95,
+        "h_8d78de": 1.0
+      },
+      "horses": [
+        "h_c6c201",
+        "h_3a2233",
+        "h_bca212",
+        "h_227aad",
+        "h_40adb0",
+        "h_8d78de"
+      ],
+      "order": [
+        "h_bca212",
+        "h_40adb0",
+        "h_8d78de",
+        "h_227aad",
+        "h_3a2233",
+        "h_c6c201"
+      ],
+      "winner": "h_bca212"
+    },
+    {
+      "id": "r_00021",
+      "ts": "2025-08-08T23:17:30.761130Z",
+      "distance": 1200,
+      "seed": 2996447853,
+      "track": 1.0,
+      "moods": {
+        "h_c85e59": 1.05,
+        "h_09c40f": 1.0,
+        "h_bca212": 0.95,
+        "h_3a2233": 0.95,
+        "h_371241": 1.05,
+        "h_712694": 1.0
+      },
+      "horses": [
+        "h_c85e59",
+        "h_09c40f",
+        "h_bca212",
+        "h_3a2233",
+        "h_371241",
+        "h_712694"
+      ],
+      "order": [
+        "h_371241",
+        "h_c85e59",
+        "h_bca212",
+        "h_09c40f",
+        "h_3a2233",
+        "h_712694"
+      ],
+      "winner": "h_371241"
+    },
+    {
+      "id": "r_00022",
+      "ts": "2025-08-08T23:17:52.771560Z",
+      "distance": 1200,
+      "seed": 2591993657,
+      "track": 0.9,
+      "moods": {
+        "h_7f6e32": 1.05,
+        "h_bca212": 1.05,
+        "h_0be4e4": 1.0,
+        "h_371241": 0.95,
+        "h_c2e206": 1.0,
+        "h_2af99f": 1.0
+      },
+      "horses": [
+        "h_7f6e32",
+        "h_bca212",
+        "h_0be4e4",
+        "h_371241",
+        "h_c2e206",
+        "h_2af99f"
+      ],
+      "order": [
+        "h_bca212",
+        "h_371241",
+        "h_7f6e32",
+        "h_2af99f",
+        "h_c2e206",
+        "h_0be4e4"
+      ],
+      "winner": "h_bca212"
+    },
+    {
+      "id": "r_00023",
+      "ts": "2025-08-08T23:18:14.510424Z",
+      "distance": 1200,
+      "seed": 2320170120,
+      "track": 1.1,
+      "moods": {
+        "h_2af99f": 1.05,
+        "h_09c40f": 0.95,
+        "h_712694": 1.05,
+        "h_c85e59": 0.95,
+        "h_0be4e4": 0.95,
+        "h_8d78de": 1.05
+      },
+      "horses": [
+        "h_2af99f",
+        "h_09c40f",
+        "h_712694",
+        "h_c85e59",
+        "h_0be4e4",
+        "h_8d78de"
+      ],
+      "order": [
+        "h_8d78de",
+        "h_c85e59",
+        "h_2af99f",
+        "h_09c40f",
+        "h_712694",
+        "h_0be4e4"
+      ],
+      "winner": "h_8d78de"
+    },
+    {
+      "id": "r_00024",
+      "ts": "2025-08-08T23:18:36.211157Z",
+      "distance": 1200,
+      "seed": 1482144247,
+      "track": 1.0,
+      "moods": {
+        "h_3a2233": 1.05,
+        "h_c6c201": 1.05,
+        "h_712694": 1.05,
+        "h_371241": 0.95,
+        "h_227aad": 0.95,
+        "h_c85e59": 1.05
+      },
+      "horses": [
+        "h_3a2233",
+        "h_c6c201",
+        "h_712694",
+        "h_371241",
+        "h_227aad",
+        "h_c85e59"
+      ],
+      "order": [
+        "h_c85e59",
+        "h_3a2233",
+        "h_c6c201",
+        "h_371241",
+        "h_712694",
+        "h_227aad"
+      ],
+      "winner": "h_c85e59"
+    }
+  ],
+  "config": {
+    "race_every_sec": 20,
+    "field_size": 6,
+    "max_horses": 60
+  }
+}
