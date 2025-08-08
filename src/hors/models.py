@@ -1,6 +1,9 @@
 from pydantic import BaseModel, Field
 from typing import List, Dict, Literal
 import uuid, random
+from pathlib import Path
+
+NAMES_PATH = Path(__file__).parent / "data" / "names.txt"
 
 ClassName = Literal["maiden", "novice", "open"]
 
@@ -24,10 +27,14 @@ class Horse(BaseModel):
     stats: Stats
 
 
+def get_name():
+    names = [n.strip() for n in NAMES_PATH.read_text().splitlines() if n.strip()]
+    return random.choice(names)
+
+
 def new_horse(name: str | None = None) -> Horse:
     if not name:
-        name = f"Horse-{uuid.uuid4().hex[:4]}"
-    # light random but sane ranges
+        name = get_name()
     s = Stats(
         energy=random.uniform(6, 9),
         agility=random.uniform(6, 9),

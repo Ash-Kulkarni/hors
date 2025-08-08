@@ -1,21 +1,51 @@
 Black Days
-Willow
-Echo
-Maple
-Stormchaser
-Midnight
-Silver Blaze
-Thunderhoof
-Comet
-Copperfield
-Breeze
-Ironmane
-Shadowfax
-Blizzard
-Starfire
-Ember
-Whisperwind
-Sunburst
-Frostbite
-Nightshade
-Wildflower
+Biscuit Bandit
+Pancake Express
+Rubber Duck
+Sofa King Fast
+Pickle Rickshaw
+Noodle Runner
+Hot Mustard
+Lawn Dart
+Banana Cannon
+Potato Dash
+Cupcake Cruiser
+Goose on the Loose
+Muffin Stomp
+Toaster Charge
+Pogo Stick Blitz
+Cheeseburger Derby
+Waffle Sprint
+Bagel Rocket
+Marshmallow Mayhem
+Trousers Trouble
+Cabbage Racer
+Chili Pepper Popper
+Donut Disaster
+Salad Spinner
+Turkey Trotter
+Baguette Bullet
+Onion Ring Rampage
+Pizza Pony
+Spaghetti Stampede
+Broccoli Bolt
+Carrot Charger
+Turnip Thunder
+Pretzel Pursuit
+Ketchup Cruiser
+Coconut Comet
+Lemon Loafer
+Berry Blaster
+Melon Missile
+Pepper Prancer
+Peanut Rocket
+Cherry Charger
+Apple Avalanche
+Fudge Flyer
+Cookie Comet
+Brownie Bolt
+Caramel Charger
+Popcorn Prancer
+Chocolate Comet
+Sundae Sprinter
+Ginger Snap Galloper

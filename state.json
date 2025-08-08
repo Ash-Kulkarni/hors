@@ -1,8 +1,8 @@
 {
   "horses": [
     {
-      "id": "h_dd586c",
-      "name": "Silver Blaze",
+      "id": "h_2dec54",
+      "name": "Pretzel Pursuit",
       "age_races": 0,
       "retire_after": 10,
       "wins": 0,
@@ -10,31 +10,15 @@
       "klass": "maiden",
       "form": [],
       "stats": {
-        "energy": 7.607191946346464,
-        "agility": 6.524864245622307,
-        "discipline": 7.313737043726471,
-        "temperament": 4.1851073025571415
+        "energy": 8.431911334113131,
+        "agility": 6.264455224482504,
+        "discipline": 6.22135359703641,
+        "temperament": 6.643185171845522
       }
     },
     {
-      "id": "h_de5544",
-      "name": "Nightshade",
-      "age_races": 1,
-      "retire_after": 10,
-      "wins": 0,
-      "losses": 1,
-      "klass": "maiden",
-      "form": [],
-      "stats": {
-        "energy": 8.618358916325827,
-        "agility": 6.13618713468955,
-        "discipline": 5.508416879641946,
-        "temperament": 6.800524816691258
-      }
-    },
-    {
-      "id": "h_d50dd5",
-      "name": "Comet",
+      "id": "h_011f4c",
+      "name": "Cupcake Cruiser",
       "age_races": 0,
       "retire_after": 10,
       "wins": 0,
@@ -42,31 +26,15 @@
       "klass": "maiden",
       "form": [],
       "stats": {
-        "energy": 7.887148961810386,
-        "agility": 6.034211446389738,
-        "discipline": 7.362341338716885,
-        "temperament": 5.33026760162863
+        "energy": 7.05399119101705,
+        "agility": 6.933969180196149,
+        "discipline": 8.236267996366,
+        "temperament": 4.1708935153019375
       }
     },
     {
-      "id": "h_df2580",
-      "name": "Ember",
-      "age_races": 1,
-      "retire_after": 10,
-      "wins": 0,
-      "losses": 1,
-      "klass": "maiden",
-      "form": [],
-      "stats": {
-        "energy": 7.837341104970958,
-        "agility": 6.255410433502229,
-        "discipline": 5.513843976139444,
-        "temperament": 6.847239063097545
-      }
-    },
-    {
-      "id": "h_b4e774",
-      "name": "Black Days",
+      "id": "h_9d68d7",
+      "name": "Waffle Sprint",
       "age_races": 0,
       "retire_after": 10,
       "wins": 0,
@@ -74,15 +42,15 @@
       "klass": "maiden",
       "form": [],
       "stats": {
-        "energy": 8.766754564329114,
-        "agility": 8.410542478885366,
-        "discipline": 8.212775628505483,
-        "temperament": 3.6415475124188643
+        "energy": 7.070173304511463,
+        "agility": 6.976729813457294,
+        "discipline": 8.889460815156028,
+        "temperament": 3.2472766132653827
       }
     },
     {
-      "id": "h_bfd4f8",
-      "name": "Maple",
+      "id": "h_e086d1",
+      "name": "Donut Disaster",
       "age_races": 0,
       "retire_after": 10,
       "wins": 0,
@@ -90,15 +58,15 @@
       "klass": "maiden",
       "form": [],
       "stats": {
-        "energy": 7.158091797855153,
-        "agility": 7.701711531442144,
-        "discipline": 8.741287076550012,
-        "temperament": 4.883788941985674
+        "energy": 7.517520147300941,
+        "agility": 6.4219550202001585,
+        "discipline": 5.792730859919013,
+        "temperament": 3.5771066167526095
       }
     },
     {
-      "id": "h_45a6ca",
-      "name": "Starfire",
+      "id": "h_a67aa7",
+      "name": "Spaghetti Stampede",
       "age_races": 0,
       "retire_after": 10,
       "wins": 0,
@@ -106,47 +74,15 @@
       "klass": "maiden",
       "form": [],
       "stats": {
-        "energy": 8.997155870679885,
-        "agility": 7.627943221077147,
-        "discipline": 6.426796932145912,
-        "temperament": 5.872579901172105
+        "energy": 8.38492330237426,
+        "agility": 8.212686627869383,
+        "discipline": 7.669043819363102,
+        "temperament": 6.679558538283654
       }
     },
     {
-      "id": "h_423191",
-      "name": "Sunburst",
-      "age_races": 1,
-      "retire_after": 10,
-      "wins": 1,
-      "losses": 0,
-      "klass": "maiden",
-      "form": [],
-      "stats": {
-        "energy": 8.287599396095942,
-        "agility": 8.881991264520932,
-        "discipline": 8.159041275252788,
-        "temperament": 4.4735709997629
-      }
-    },
-    {
-      "id": "h_92a5b0",
-      "name": "Ember",
-      "age_races": 1,
-      "retire_after": 10,
-      "wins": 0,
-      "losses": 1,
-      "klass": "maiden",
-      "form": [],
-      "stats": {
-        "energy": 7.166145073784101,
-        "agility": 8.11026575626844,
-        "discipline": 6.669019539216354,
-        "temperament": 6.42094031433415
-      }
-    },
-    {
-      "id": "h_e8b6c9",
-      "name": "Copperfield",
+      "id": "h_728eab",
+      "name": "Cheeseburger Derby",
       "age_races": 0,
       "retire_after": 10,
       "wins": 0,
@@ -154,15 +90,15 @@
       "klass": "maiden",
       "form": [],
       "stats": {
-        "energy": 7.440799640885616,
-        "agility": 7.22589068655529,
-        "discipline": 6.5176483259766975,
-        "temperament": 4.719833570972251
+        "energy": 7.946581196703262,
+        "agility": 8.423038974621434,
+        "discipline": 8.596805180662688,
+        "temperament": 4.208994776379793
       }
     },
     {
-      "id": "h_99e366",
-      "name": "Maple",
+      "id": "h_8ac6bb",
+      "name": "Pepper Prancer",
       "age_races": 0,
       "retire_after": 10,
       "wins": 0,
@@ -170,31 +106,15 @@
       "klass": "maiden",
       "form": [],
       "stats": {
-        "energy": 8.047665803624596,
-        "agility": 8.711553199899424,
-        "discipline": 6.866781887148025,
-        "temperament": 4.546073602172195
+        "energy": 6.948464201317057,
+        "agility": 7.940408742659759,
+        "discipline": 7.797701581940649,
+        "temperament": 6.326180124307829
       }
     },
     {
-      "id": "h_3ec16b",
-      "name": "Nightshade",
-      "age_races": 1,
-      "retire_after": 10,
-      "wins": 0,
-      "losses": 1,
-      "klass": "maiden",
-      "form": [],
-      "stats": {
-        "energy": 8.632199758777382,
-        "agility": 7.626277532139289,
-        "discipline": 8.528063361583186,
-        "temperament": 6.417651581030694
-      }
-    },
-    {
-      "id": "h_e43e0c",
-      "name": "Frostbite",
+      "id": "h_aaf533",
+      "name": "Banana Cannon",
       "age_races": 0,
       "retire_after": 10,
       "wins": 0,
@@ -202,47 +122,15 @@
       "klass": "maiden",
       "form": [],
       "stats": {
-        "energy": 6.890623475197015,
-        "agility": 7.87822698419571,
-        "discipline": 6.92173097230094,
-        "temperament": 5.245904735969119
+        "energy": 6.873102591843087,
+        "agility": 7.704599825503156,
+        "discipline": 7.7656570198846655,
+        "temperament": 3.971889715391274
       }
     },
     {
-      "id": "h_1ae6bd",
-      "name": "Copperfield",
-      "age_races": 1,
-      "retire_after": 10,
-      "wins": 0,
-      "losses": 1,
-      "klass": "maiden",
-      "form": [],
-      "stats": {
-        "energy": 8.531800085690229,
-        "agility": 8.186268555430813,
-        "discipline": 6.705760005213577,
-        "temperament": 5.06368813097567
-      }
-    },
-    {
-      "id": "h_d45433",
-      "name": "Whisperwind",
-      "age_races": 2,
-      "retire_after": 10,
-      "wins": 0,
-      "losses": 2,
-      "klass": "maiden",
-      "form": [],
-      "stats": {
-        "energy": 7.522873469873192,
-        "agility": 6.903374352591618,
-        "discipline": 8.757800240078502,
-        "temperament": 3.907204721262801
-      }
-    },
-    {
-      "id": "h_9b0671",
-      "name": "Starfire",
+      "id": "h_af8deb",
+      "name": "Pickle Rickshaw",
       "age_races": 0,
       "retire_after": 10,
       "wins": 0,
@@ -250,15 +138,15 @@
       "klass": "maiden",
       "form": [],
       "stats": {
-        "energy": 8.740059982913506,
-        "agility": 7.999660083298727,
-        "discipline": 6.540693292933799,
-        "temperament": 3.0122242136991026
+        "energy": 6.681861546988963,
+        "agility": 8.855767713055943,
+        "discipline": 8.288672401589256,
+        "temperament": 5.009851210668382
       }
     },
     {
-      "id": "h_ed19a3",
-      "name": "Echo",
+      "id": "h_1034bf",
+      "name": "Goose on the Loose",
       "age_races": 0,
       "retire_after": 10,
       "wins": 0,
@@ -266,15 +154,15 @@
       "klass": "maiden",
       "form": [],
       "stats": {
-        "energy": 6.662872142435079,
-        "agility": 6.819388008732284,
-        "discipline": 7.394674818761212,
-        "temperament": 5.9006424835951385
+        "energy": 7.974660842807431,
+        "agility": 7.019528049749214,
+        "discipline": 5.987360493228426,
+        "temperament": 3.0578534763723906
       }
     },
     {
-      "id": "h_004935",
-      "name": "Black Days",
+      "id": "h_ac81dc",
+      "name": "Onion Ring Rampage",
       "age_races": 0,
       "retire_after": 10,
       "wins": 0,
@@ -282,15 +170,15 @@
       "klass": "maiden",
       "form": [],
       "stats": {
-        "energy": 6.6595743719084,
-        "agility": 6.725286467230866,
-        "discipline": 7.208442100552103,
-        "temperament": 5.664463153149336
+        "energy": 8.27023908261457,
+        "agility": 6.904119419437961,
+        "discipline": 6.607037693878591,
+        "temperament": 6.132281034522697
       }
     },
     {
-      "id": "h_85b793",
-      "name": "Maple",
+      "id": "h_543008",
+      "name": "Cheeseburger Derby",
       "age_races": 0,
       "retire_after": 10,
       "wins": 0,
@@ -298,31 +186,15 @@
       "klass": "maiden",
       "form": [],
       "stats": {
-        "energy": 8.463387038683264,
-        "agility": 7.455815554447311,
-        "discipline": 6.085062429574263,
-        "temperament": 4.299478594742558
+        "energy": 7.5195711126928355,
+        "agility": 6.560512924676749,
+        "discipline": 8.538050518143232,
+        "temperament": 6.953751277607406
       }
     },
     {
-      "id": "h_7fc9ff",
-      "name": "Copperfield",
-      "age_races": 1,
-      "retire_after": 10,
-      "wins": 1,
-      "losses": 0,
-      "klass": "maiden",
-      "form": [],
-      "stats": {
-        "energy": 8.379014995615318,
-        "agility": 7.767156318220408,
-        "discipline": 8.064404098537313,
-        "temperament": 6.825122634377225
-      }
-    },
-    {
-      "id": "h_993d8b",
-      "name": "Echo",
+      "id": "h_2c5401",
+      "name": "Donut Disaster",
       "age_races": 0,
       "retire_after": 10,
       "wins": 0,
@@ -330,15 +202,15 @@
       "klass": "maiden",
       "form": [],
       "stats": {
-        "energy": 7.372318094986158,
-        "agility": 6.364871864871147,
-        "discipline": 5.140835855174382,
-        "temperament": 3.5939591722551283
+        "energy": 6.9278369805757825,
+        "agility": 6.695333427404822,
+        "discipline": 6.008527575161203,
+        "temperament": 6.338113043472673
       }
     },
     {
-      "id": "h_0e1937",
-      "name": "Midnight",
+      "id": "h_56aa3b",
+      "name": "Broccoli Bolt",
       "age_races": 0,
       "retire_after": 10,
       "wins": 0,
@@ -346,47 +218,15 @@
       "klass": "maiden",
       "form": [],
       "stats": {
-        "energy": 8.564281349763396,
-        "agility": 8.696762751858753,
-        "discipline": 7.314213349793634,
-        "temperament": 6.4792380715338656
+        "energy": 6.873199855728626,
+        "agility": 8.652928294147639,
+        "discipline": 7.02059677652099,
+        "temperament": 6.270372264709746
       }
     },
     {
-      "id": "h_475e96",
-      "name": "Sunburst",
-      "age_races": 1,
-      "retire_after": 10,
-      "wins": 0,
-      "losses": 1,
-      "klass": "maiden",
-      "form": [],
-      "stats": {
-        "energy": 6.739029149461655,
-        "agility": 6.60705510015606,
-        "discipline": 8.107946006363187,
-        "temperament": 3.110982595695479
-      }
-    },
-    {
-      "id": "h_c58b1e",
-      "name": "Ember",
-      "age_races": 1,
-      "retire_after": 10,
-      "wins": 0,
-      "losses": 1,
-      "klass": "maiden",
-      "form": [],
-      "stats": {
-        "energy": 6.959047036762165,
-        "agility": 7.170578699482569,
-        "discipline": 8.164989174350442,
-        "temperament": 3.687517936455751
-      }
-    },
-    {
-      "id": "h_69209e",
-      "name": "Echo",
+      "id": "h_fdc60f",
+      "name": "Berry Blaster",
       "age_races": 0,
       "retire_after": 10,
       "wins": 0,
@@ -394,31 +234,15 @@
       "klass": "maiden",
       "form": [],
       "stats": {
-        "energy": 7.819867207190972,
-        "agility": 7.587195125297995,
-        "discipline": 7.030640248957118,
-        "temperament": 4.531740879792918
+        "energy": 6.815993495891581,
+        "agility": 6.236500338226349,
+        "discipline": 6.738236678756273,
+        "temperament": 3.890778683603385
       }
     },
     {
-      "id": "h_f843c2",
-      "name": "Black Days",
-      "age_races": 1,
-      "retire_after": 10,
-      "wins": 0,
-      "losses": 1,
-      "klass": "maiden",
-      "form": [],
-      "stats": {
-        "energy": 8.504138997582134,
-        "agility": 8.694552742166398,
-        "discipline": 8.413042230867603,
-        "temperament": 3.0724916198455805
-      }
-    },
-    {
-      "id": "h_551407",
-      "name": "Thunderhoof",
+      "id": "h_b990e6",
+      "name": "Coconut Comet",
       "age_races": 0,
       "retire_after": 10,
       "wins": 0,
@@ -426,15 +250,15 @@
       "klass": "maiden",
       "form": [],
       "stats": {
-        "energy": 8.150827140746376,
-        "agility": 7.1915147909871155,
-        "discipline": 5.048226796400858,
-        "temperament": 3.639957231812169
+        "energy": 6.33457883878084,
+        "agility": 6.042482491288538,
+        "discipline": 6.463783424002139,
+        "temperament": 5.304863948480742
       }
     },
     {
-      "id": "h_d4c898",
-      "name": "Willow",
+      "id": "h_5c1cf7",
+      "name": "Turkey Trotter",
       "age_races": 0,
       "retire_after": 10,
       "wins": 0,
@@ -442,15 +266,15 @@
       "klass": "maiden",
       "form": [],
       "stats": {
-        "energy": 8.86865871265622,
-        "agility": 8.396322502250928,
-        "discipline": 7.603448431436526,
-        "temperament": 5.160785375383917
+        "energy": 8.70037486256134,
+        "agility": 8.065932630480907,
+        "discipline": 5.816037408284302,
+        "temperament": 3.513250160615362
       }
     },
     {
-      "id": "h_f3dc04",
-      "name": "Copperfield",
+      "id": "h_10200b",
+      "name": "Caramel Charger",
       "age_races": 0,
       "retire_after": 10,
       "wins": 0,
@@ -458,15 +282,15 @@
       "klass": "maiden",
       "form": [],
       "stats": {
-        "energy": 8.249497233979236,
-        "agility": 7.587547287576722,
-        "discipline": 6.834286681334099,
-        "temperament": 6.187572117877608
+        "energy": 7.979762454648291,
+        "agility": 8.279861293716197,
+        "discipline": 8.799196386542418,
+        "temperament": 4.7925940260478574
       }
     },
     {
-      "id": "h_8b09aa",
-      "name": "Ember",
+      "id": "h_61a77d",
+      "name": "Trousers Trouble",
       "age_races": 0,
       "retire_after": 10,
       "wins": 0,
@@ -474,79 +298,190 @@
       "klass": "maiden",
       "form": [],
       "stats": {
-        "energy": 7.899257983738057,
-        "agility": 8.280065034021716,
-        "discipline": 7.009602295422303,
-        "temperament": 5.2349016630277845
+        "energy": 6.216059386798663,
+        "agility": 7.408877238159989,
+        "discipline": 6.027483332372398,
+        "temperament": 3.942536422823885
+      }
+    },
+    {
+      "id": "h_ffd7ac",
+      "name": "Marshmallow Mayhem",
+      "age_races": 0,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 0,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 8.291813433229287,
+        "agility": 6.063705873300582,
+        "discipline": 5.274284985838529,
+        "temperament": 5.55607079419846
+      }
+    },
+    {
+      "id": "h_6e8290",
+      "name": "Cheeseburger Derby",
+      "age_races": 0,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 0,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 7.296023259455905,
+        "agility": 8.922211016835188,
+        "discipline": 5.226482270775575,
+        "temperament": 6.696613748529922
+      }
+    },
+    {
+      "id": "h_ad317e",
+      "name": "Cupcake Cruiser",
+      "age_races": 0,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 0,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 6.60793407447051,
+        "agility": 8.70782245831043,
+        "discipline": 6.182165830088078,
+        "temperament": 3.5083427369012874
+      }
+    },
+    {
+      "id": "h_638edb",
+      "name": "Chocolate Comet",
+      "age_races": 0,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 0,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 7.065047720189156,
+        "agility": 6.552570017987543,
+        "discipline": 8.37434516575979,
+        "temperament": 4.866305121854838
+      }
+    },
+    {
+      "id": "h_cbc5a4",
+      "name": "Popcorn Prancer",
+      "age_races": 0,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 0,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 6.220304811136907,
+        "agility": 8.397950945773305,
+        "discipline": 7.668866302091604,
+        "temperament": 3.120780517631125
+      }
+    },
+    {
+      "id": "h_83ba05",
+      "name": "Caramel Charger",
+      "age_races": 0,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 0,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 6.039569796516549,
+        "agility": 7.618163515752227,
+        "discipline": 6.431441690626375,
+        "temperament": 3.0920884806311864
+      }
+    },
+    {
+      "id": "h_6f512f",
+      "name": "Cupcake Cruiser",
+      "age_races": 0,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 0,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 6.699220882400965,
+        "agility": 7.5001735182167115,
+        "discipline": 5.383598575314706,
+        "temperament": 4.867374514918269
+      }
+    },
+    {
+      "id": "h_30a328",
+      "name": "Potato Dash",
+      "age_races": 0,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 0,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 8.390550271128237,
+        "agility": 8.994641407315987,
+        "discipline": 7.92452891404151,
+        "temperament": 5.266781002966056
+      }
+    },
+    {
+      "id": "h_173530",
+      "name": "Pickle Rickshaw",
+      "age_races": 0,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 0,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 8.965277582317503,
+        "agility": 7.53798211533563,
+        "discipline": 8.177753929556518,
+        "temperament": 4.559143631137822
+      }
+    },
+    {
+      "id": "h_ad90c2",
+      "name": "Bagel Rocket",
+      "age_races": 0,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 0,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 8.348766347125679,
+        "agility": 7.057197690458519,
+        "discipline": 7.691118230844243,
+        "temperament": 4.306683395577434
+      }
+    },
+    {
+      "id": "h_346881",
+      "name": "Pickle Rickshaw",
+      "age_races": 0,
+      "retire_after": 10,
+      "wins": 0,
+      "losses": 0,
+      "klass": "maiden",
+      "form": [],
+      "stats": {
+        "energy": 8.577486827207904,
+        "agility": 8.91081810927584,
+        "discipline": 8.85959462288839,
+        "temperament": 5.895129052438643
       }
     }
   ],
-  "races": [
-    {
-      "id": "r_00001",
-      "ts": "2025-08-08T23:28:19.633002Z",
-      "distance": 1200,
-      "seed": 4073814527,
-      "track": 0.9,
-      "moods": {
-        "h_3ec16b": 0.95,
-        "h_df2580": 1.0,
-        "h_f843c2": 0.95,
-        "h_d45433": 0.95,
-        "h_423191": 0.95,
-        "h_1ae6bd": 1.0
-      },
-      "horses": [
-        "h_3ec16b",
-        "h_df2580",
-        "h_f843c2",
-        "h_d45433",
-        "h_423191",
-        "h_1ae6bd"
-      ],
-      "order": [
-        "h_423191",
-        "h_f843c2",
-        "h_1ae6bd",
-        "h_3ec16b",
-        "h_d45433",
-        "h_df2580"
-      ],
-      "winner": "h_423191"
-    },
-    {
-      "id": "r_00002",
-      "ts": "2025-08-08T23:28:25.509616Z",
-      "distance": 1200,
-      "seed": 2957269255,
-      "track": 1.0,
-      "moods": {
-        "h_92a5b0": 1.0,
-        "h_c58b1e": 1.0,
-        "h_475e96": 1.05,
-        "h_7fc9ff": 1.0,
-        "h_d45433": 1.0,
-        "h_de5544": 1.05
-      },
-      "horses": [
-        "h_92a5b0",
-        "h_c58b1e",
-        "h_475e96",
-        "h_7fc9ff",
-        "h_d45433",
-        "h_de5544"
-      ],
-      "order": [
-        "h_7fc9ff",
-        "h_d45433",
-        "h_c58b1e",
-        "h_92a5b0",
-        "h_475e96",
-        "h_de5544"
-      ],
-      "winner": "h_7fc9ff"
-    }
-  ],
+  "races": [],
   "config": {
     "race_every_sec": 20,
     "field_size": 6,

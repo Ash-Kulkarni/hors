@@ -128,10 +128,10 @@ def archive(which: str = typer.Argument("last"), replay: bool = False):
     console.print(Panel(t))
     if replay:
         # reconstruct horse objs and replay from seed
-        from models import Horse as HModel
+        from hors.models import Horse as HModel
 
         horses = [HModel(**h) for h in st["horses"] if h["id"] in r["horses"]]
-        visualise_race_result(
+        run_race(
             horses, distance=r.get("distance", 1200), seed=r["seed"], tick_delay=0.04
         )
 
